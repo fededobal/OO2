@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Usuario {
     private String screenName;
@@ -25,11 +26,7 @@ public class Usuario {
     }
 
     public List<Posteo> getPosteosValidos() {
-        List<Posteo> validos = new LinkedList<>();
-        for (Posteo p : this.posteos)
-            if (!p.estaEliminado())
-                validos.add(p);
-        return validos;
+        return this.posteos.stream().filter(p -> !p.estaEliminado()).collect(Collectors.toList());
     }
 
     public String getScreenName() {
