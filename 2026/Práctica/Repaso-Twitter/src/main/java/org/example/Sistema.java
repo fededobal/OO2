@@ -10,9 +10,9 @@ public class Sistema {
         this.usuarios = new LinkedList<>();
     }
 
-    public boolean agregarUsuario(String screenName) {
-        if(buscarPorScreenName(screenName) == null) {
-            this.usuarios.add(new Usuario(screenName));
+    public boolean agregarUsuario(Usuario u) {
+        if(buscarPorScreenName(u.getScreenName()) == null) {
+            this.usuarios.add(u);
             return true;
         }
         return false;

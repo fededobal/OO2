@@ -13,9 +13,9 @@ public class Usuario {
         this.posteos = new LinkedList<>();
     }
 
-    public boolean twittear(String texto) {
-        if(this.validarTexto(texto)) {
-            this.posteos.add(new Tweet(texto));
+    public boolean twittear(Tweet t) {
+        if(this.validarTexto(t.getTexto())) {
+            this.posteos.add(t);
             return true;
         }
         return false;
