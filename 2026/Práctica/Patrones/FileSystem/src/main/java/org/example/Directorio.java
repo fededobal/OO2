@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Directorio extends Elemento {
     private List<Elemento> elementos;
@@ -40,21 +41,43 @@ public class Directorio extends Elemento {
                 .orElse(null);
     }
 
-    @Override
-    public boolean mismoNombre(String nombre) {
-        boolean aux = false;
-        if(super.mismoNombre(nombre)) {
-            aux = true;
-        } else {
-            Iterator<Elemento> it = this.elementos.iterator();
-            while(it.hasNext() && !aux) {
-                aux = it.next().mismoNombre(nombre);
-            }
-        }
-        return aux;
-    }
-
     public void agregarElemento(Elemento elemento) {
         this.elementos.add(elemento);
+    }
+
+    @Override
+    public Elemento buscar(String nombre) {
+        if (this.mismoNombre(nombre)) {
+            return this;
+        }
+        return elementos.stream()
+                .map(e -> e.buscar(nombre))
+                .filter(e -> e != null)
+                .findFirst()
+                .orElse(null);
+    }
+
+    @Override
+    public List<Elemento> buscarTodos(String nombre) {
+        List<Elemento> res = new LinkedList<>();
+        if (this.mismoNombre(nombre)) {
+            res.add(this);
+        }
+        List<Elemento> resultadosDeHijos = elementos.stream()
+                .flatMap(e -> e.buscarTodos(nombre).stream())
+                .collect(Collectors.toList());
+
+        res.addAll(resultadosDeHijos);
+        return res;
+    }
+
+    @Override
+    String listarElementos(String rutaPadre) {
+        String miRuta = rutaPadre.equals("/") ? "/" + this.getNombre() : rutaPadre + "/" + this.getNombre();
+        String resultado = miRuta + "\n";
+        resultado += this.elementos.stream()
+                .map(e -> e.listarElementos(miRuta))
+                .collect(Collectors.joining());
+        return resultado;
     }
 }

@@ -32,4 +32,23 @@ public class Archivo extends Elemento {
     public LocalDate getFechaCreacion() {
         return fechaCreacion;
     }
+
+    @Override
+    public Elemento buscar(String nombre) {
+        return this.mismoNombre(nombre) ? this : null;
+    }
+
+    @Override
+    public List<Elemento> buscarTodos(String nombre) {
+        List<Elemento> resultado = new LinkedList<>();
+        if (this.mismoNombre(nombre)) {
+            resultado.add(this);
+        }
+        return resultado;
+    }
+
+    @Override
+    public String listarElementos(String rutaPadre) {
+        return rutaPadre + "/" + this.getNombre() + "\n";
+    }
 }

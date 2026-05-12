@@ -1,81 +1,58 @@
 package org.example;
 
-import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FileSystem {
-    private List<Elemento> elementos;
+    private Directorio raiz;
 
     public FileSystem() {
-        this.elementos = new LinkedList<>();
+        this.raiz = new Directorio("/");
     }
 
     public void agregarElemento(Elemento elemento) {
-        this.elementos.add(elemento);
+        this.raiz.agregarElemento(elemento);
     }
 
-    /// Retorna el espacio total ocupado, incluyendo todo su contenido.
     public int tamanoTotalOcupado() {
-        return elementos.stream().mapToInt(Elemento::getTamaño).sum();
+        return raiz.getTamaño(); // Delega directamente al root
     }
 
     /// Retorna el archivo con mayor cantidad de bytes en cualquier nivel del
     /// filesystem
     public Archivo archivoMasGrande() {
-        return elementos.stream()
-                .map(Elemento::archivoMasGrande) // Dispara la recursión en cascada
-                .filter(a -> a != null)
-                .max(Comparator.comparingInt(Archivo::getTamaño))
-                .orElse(null);
+        return raiz.archivoMasGrande();
     }
 
     /// Retorna el archivo con fecha de creación más reciente en cualquier nivel
     /// del filesystem
     public Archivo archivoMasNuevo() {
-        return elementos.stream()
-                .map(Elemento::archivoMasNuevo) // Dispara la recursión en cascada
-                .filter(a -> a != null)
-                .max(Comparator.comparing(Archivo::getFechaCreacion))
-                .orElse(null);
+        return raiz.archivoMasNuevo();
     }
 
-    /**
-     * Retorna el primer elemento con el nombre solicitado contenido en cualquier
-     * nivel del filesystem
-     */
+    /// Retorna el primer elemento con el nombre solicitado contenido en cualquier
+    /// nivel del filesystem
     public Elemento buscar(String nombre) {
-        return elementos.stream()
-                .filter(e -> e != null && e.mismoNombre(nombre))
-                .findFirst()
-                .orElse(null);
+        return raiz.buscar(nombre);
     }
 
-    /**
-     * Retorna la lista con los elementos que coinciden con el nombre solicitado
-     * contenido en cualquier nivel del filesystem
-     */
+    /// Retorna la lista con los elementos que coinciden con el nombre solicitado
+    /// contenido en cualquier nivel del filesystem
     public List<Elemento> buscarTodos(String nombre) {
-        return elementos.stream()
-                .filter(e -> e != null && e.mismoNombre(nombre))
-                .collect(Collectors.toList());
+        return raiz.buscarTodos(nombre);
     }
 
-    /**
-     * Retorna un String con los nombres de los elementos contenidos en todos los
-     * niveles del filesystem. De cada elemento debe retornar el path completo
-     * (similar al comando pwd de linux) siguiendo el modelo presentado a
-     * continuación
-     /Directorio A
-     /Directorio A/Directorio A.1
-     /Directorio A/Directorio A.1/Directorio A.1.1
-     /Directorio A/Directorio A.1/Directorio A.1.2
-     /Directorio A/Directorio A.2
-     /Directorio B
-     */
+    /// Retorna un String con los nombres de los elementos contenidos en todos los
+    /// niveles del filesystem. De cada elemento debe retornar el path completo
+    /// (similar al comando pwd de linux) siguiendo el modelo presentado a
+    /// continuación
+    ////Directorio A
+    ////Directorio A/Directorio A.1
+    ////Directorio A/Directorio A.1/Directorio A.1.1
+    ////Directorio A/Directorio A.1/Directorio A.1.2
+    ////Directorio A/Directorio A.2
+    ////Directorio B
     public String listadoDeContenido() {
-
+        return raiz.listarElementos("/");
     }
 }
 

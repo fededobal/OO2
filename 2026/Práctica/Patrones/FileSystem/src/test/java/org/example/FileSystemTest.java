@@ -34,5 +34,6 @@ public class FileSystemTest {
         assertNull(fs.buscar("AB"));
         assertNotNull(fs.buscar("DIR1"));
         assertEquals(4,fs.buscarTodos("DIR1").size());
+        System.out.println(fs.listadoDeContenido());
     }
 }
