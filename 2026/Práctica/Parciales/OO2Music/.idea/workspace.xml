@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4a7cade-8ee1-4b10-b503-b78cffa5c204" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/JavaLogging/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/JavaLogging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/JavaLogging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/JavaLogging/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/JavaLogging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BurgerOO2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnvioDePaquetes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/JuegosDeRol/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PlanesMedicos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Patrones/PrestamosPrendarios/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3EbFAOYE2E3yvVen2p4BawcDcay" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Federico Dobal/Desktop/FACU/OO2/2026/Práctica/Parciales/OO2Music/src/main/java/org/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Federico Dobal\Desktop\FACU\OO2\2026\Práctica\Parciales\OO2Music\src\main\java\org\example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4a7cade-8ee1-4b10-b503-b78cffa5c204" name="Changes" comment="" />
+      <created>1780439222758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780439222758</updated>
+      <workItem from="1780439224005" duration="1798000" />
+      <workItem from="1780441042350" duration="3167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
