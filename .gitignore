@@ -53,3 +53,6 @@ replay_pid*
 
 # Guía de estudio para el final (no versionada)
 2026/Final/
+
+# macOS
+.DS_Store
