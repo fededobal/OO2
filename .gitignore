@@ -50,3 +50,6 @@ hs_err_pid*
 replay_pid*
 
 *.plantuml
+
+# Guía de estudio para el final (no versionada)
+2026/Final/
