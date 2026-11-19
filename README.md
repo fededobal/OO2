@@ -1,6 +1,6 @@
 # Orientación a Objetos 2
 
-Teorías y ejercicios resueltos en Java (proyectos Maven) de Orientación a Objetos 2 (cursada 2026): patrones de diseño, refactoring, frameworks y parciales.
+Material de Orientación a Objetos 2 (cursada 2026): teorías de la cátedra (2026 y, para los temas que faltan, de cursadas anteriores), finales anteriores, y ejercicios resueltos en Java (proyectos Maven) de patrones de diseño, refactoring, frameworks y parciales.
 
 ## [Teoría](2026/Teor%C3%ADa/)
 
