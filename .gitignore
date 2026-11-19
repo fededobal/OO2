@@ -51,8 +51,9 @@ replay_pid*
 
 *.plantuml
 
-# Guía de estudio para el final (no versionada)
-2026/Final/
+# Guía de estudio para el final (no versionada; los finales sí)
+2026/Final/guia-final-oo2.pdf
+2026/Final/src/
 
 # macOS
 .DS_Store
