@@ -2,12 +2,33 @@
 
 Teorías y ejercicios resueltos en Java (proyectos Maven) de Orientación a Objetos 2 (cursada 2026): patrones de diseño, refactoring, frameworks y parciales.
 
-## [Teoría](2026/Teoría/)
+## [Teoría](2026/Teor%C3%ADa/)
 
-- [Introducción a la materia](2026/Teoría/Intro%20a%20la%20materia.pdf)
-- [Introducción a refactoring](2026/Teoría/Intro%20a%20refactoring.pdf) y [ejemplo de refactoring](2026/Teoría/Refactoring-Ejemplo.pdf)
-- [Catálogo de refactorings](2026/Teoría/2-Slides-Catalogo.pdf) y [herramientas de refactoring](2026/Teoría/3-Refactoring-Tools.pdf)
-- [Catálogo de code smells](2026/Teor%C3%ADa/Cata%CC%81logo%20de%20code%20smells%20de%20Objetos%202.pdf)
+Las teorías 2026 van sin año; el resto son de cursadas anteriores (2025, 2024 o 2023) y cubren los temas que todavía no tienen versión 2026.
+
+**Materia**
+- [Introducción a la materia](2026/Teor%C3%ADa/Intro%20a%20la%20materia.pdf) · [Clase final: integración de contenidos (2025)](2026/Teor%C3%ADa/2025-16%20Clase%20final.pdf)
+
+**Refactoring**
+- [Introducción a refactoring](2026/Teor%C3%ADa/Intro%20a%20refactoring.pdf) y [ejemplo de refactoring](2026/Teor%C3%ADa/Refactoring-Ejemplo.pdf)
+- [Catálogo de refactorings](2026/Teor%C3%ADa/2-Slides-Catalogo.pdf) y [herramientas de refactoring](2026/Teor%C3%ADa/3-Refactoring-Tools.pdf)
+- [Catálogo de code smells](2026/Teor%C3%ADa/Cat%C3%A1logo%20de%20code%20smells%20de%20Objetos%202.pdf)
+- [Refactorizando métodos repetidos (2025)](2026/Teor%C3%ADa/2025-03%20Refactorizando%20m%C3%A9todos%20repetidos.pdf) · [15 minutos de refactoring (2024)](2026/Teor%C3%ADa/2024%2015%20minutos%20de%20refactoring.pdf) · [Redictado OO2 (2024)](2026/Teor%C3%ADa/2024%20Redictado%20OO2.pdf)
+- [Refactoring to patterns (2025)](2026/Teor%C3%ADa/2025-11%20Refactoring%20to%20patterns.pdf) y [otros refactorings hacia patrones (2024)](2026/Teor%C3%ADa/2024%20Otros%20refactorings%20hacia%20patrones.pdf)
+
+**Patrones de diseño**
+- [Intro a patrones, Adapter y Template Method (2025)](2026/Teor%C3%ADa/2025-07%20Intro%20a%20patrones%2C%20Adapter%20y%20Template%20Method.pdf)
+- [Strategy y State (2025)](2026/Teor%C3%ADa/2025-08%20Strategy%20y%20State.pdf) · [Composite y Builder (2025)](2026/Teor%C3%ADa/2025-09%20Composite%20y%20Builder.pdf) · [Decorator y Proxy (2025)](2026/Teor%C3%ADa/2025-10%20Decorator%20y%20Proxy.pdf)
+- [Factory Method (2024)](2026/Teor%C3%ADa/2024%20Factory%20Method%20%28Construcci%C3%B3n%201%29.pdf) · [Null Object y Builder (2024)](2026/Teor%C3%ADa/2024%20Null%20Object%20y%20Builder%20%28Construcci%C3%B3n%202%29.pdf) · [Patrones creacionales (2023)](2026/Teor%C3%ADa/2023%20Patrones%20creacionales.pdf) · [Singleton (2023)](2026/Teor%C3%ADa/2023%20Singleton.pdf)
+- [Patrones para analizar dominios (2023)](2026/Teor%C3%ADa/2023%20Patrones%20para%20estudiar%20y%20analizar%20dominios.pdf) · [Type Object, Observations y Null Object (2023)](2026/Teor%C3%ADa/2023%20Type%20Object%2C%20Observations%20y%20Null%20Object.pdf)
+
+**Frameworks**
+- [Frameworks I: reuso, librerías y frameworks (2025)](2026/Teor%C3%ADa/2025-13%20Frameworks%20I.pdf) · [Frameworks II: caja negra (2025)](2026/Teor%C3%ADa/2025-14%20Frameworks%20II.pdf)
+- [Reúso, librerías y frameworks (2024)](2026/Teor%C3%ADa/2024%20Re%C3%BAso%2C%20librer%C3%ADas%20y%20frameworks.pdf) · [java.util.logging (2024)](2026/Teor%C3%ADa/2024%20Framework%20java.util.logging.pdf)
+- [Herencia vs. composición (2024)](2026/Teor%C3%ADa/2024%20Frameworks%2C%20herencia%20vs%20composici%C3%B3n.pdf) · [Plantillas y ganchos (2024)](2026/Teor%C3%ADa/2024%20Plantillas%20y%20ganchos%20%28herencia%20y%20composici%C3%B3n%29.pdf)
+
+**Testing**
+- [Test Doubles (2025)](2026/Teor%C3%ADa/2025-12%20Test%20Doubles.pdf) · [Type Object y Test Doubles (2024)](2026/Teor%C3%ADa/2024%20Type%20Object%20y%20Test%20Doubles.pdf) · [TDD (2025)](2026/Teor%C3%ADa/2025-15%20TDD.pdf)
 
 ## [Patrones](2026/Práctica/Patrones/)
 
