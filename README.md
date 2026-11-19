@@ -30,6 +30,22 @@ Las teorías 2026 van sin año; el resto son de cursadas anteriores (2025, 2024 
 **Testing**
 - [Test Doubles (2025)](2026/Teor%C3%ADa/2025-12%20Test%20Doubles.pdf) · [Type Object y Test Doubles (2024)](2026/Teor%C3%ADa/2024%20Type%20Object%20y%20Test%20Doubles.pdf) · [TDD (2025)](2026/Teor%C3%ADa/2025-15%20TDD.pdf)
 
+## [Finales](2026/Final/)
+
+Fotos, escaneos y relatos de finales anteriores. Las marcas en las fotos son, en general, del alumno que rindió y no de la cátedra.
+
+| Final | Temas |
+| --- | --- |
+| [Septiembre 2022](2026/Final/2022-09%20Final%20septiembre%202022%20%28cifradores%2C%20V-F%29.pdf) | Composite mal diseñado (cifradores) y V/F de patrones |
+| [Agosto 2024](2026/Final/2024-08%20Final%20agosto%202024%20%28framework%20ThreadedApp%29.pdf) | Framework ThreadedApp: hooks, hotspots, inversión de control, caja blanca/negra, mock |
+| [Abril 2025](2026/Final/2025-04%20Final%20abril%202025%20%28relato%20de%20un%20alumno%29.pdf) y [2025](2026/Final/2025%20Final%20%28relato%20de%20un%20alumno%2C%20Decorator%20y%20refactoring%29.pdf) (relatos) | Decorator y su comparación con Adapter, Strategy y Composite; refactoring de código |
+| [Filtros](2026/Final/Sin%20fecha%20-%20Filtros%20%28V-F%20y%20refactoring%29.pdf) | V/F y refactoring de un condicional por tipo de conexión |
+| [Módulos, E-Shop y Turismo](2026/Final/Sin%20fecha%20-%20M%C3%B3dulos%2C%20E-Shop%20y%20Turismo.pdf) | Tres exámenes: V/F + refactoring (módulos), State vs. Strategy + refactoring (E-Shop), Composite mal diseñado (turismo) |
+| [Módulos y CharRing](2026/Final/Sin%20fecha%20-%20M%C3%B3dulos%20y%20CharRing.pdf) | V/F de módulos y pasos que aseguran un refactoring |
+| [Robots y estación meteorológica](2026/Final/Sin%20fecha%20-%20Robots%20y%20estaci%C3%B3n%20meteorol%C3%B3gica.pdf) | Adapter vs. Decorator, Template Method en un framework, Strategy, Decorator/Adapter con casos de prueba |
+| [Preguntas teóricas (finales viejos)](2026/Final/Sin%20fecha%20-%20Preguntas%20te%C3%B3ricas%20y%20ejercicios%20%28finales%20viejos%29.pdf) | Preguntas cortas; cuentas bancarias (Template Method) y alarma (State + Strategy) |
+| [Pet shop y banco de alimentos](2026/Final/Sin%20fecha%20-%20Pet%20shop%20y%20banco%20de%20alimentos.pdf) | Ejercicios de diseño (Strategy, Type Object) |
+
 ## [Patrones](2026/Práctica/Patrones/)
 
 El patrón de cada ejercicio se deduce de las clases del código.
@@ -70,22 +86,6 @@ El patrón de cada ejercicio se deduce de las clases del código.
 
 - [SingleThreadTCPServer](2026/Práctica/Frameworks/SingleThreadTCPServer/): servidor TCP extendido en varias variantes (eco, repetición, contraseña, vacío).
 - [StreamBeacons](2026/Práctica/Frameworks/StreamBeacons/): dispatchers y listeners de eventos, con [respuestas](2026/Práctica/Frameworks/StreamBeacons/Respuestas.md) sobre si es framework o librería.
-
-## [Finales](2026/Final/)
-
-Fotos, escaneos y relatos de finales anteriores. Las marcas en las fotos son, en general, del alumno que rindió y no de la cátedra.
-
-| Final | Temas |
-| --- | --- |
-| [Septiembre 2022](2026/Final/2022-09%20Final%20septiembre%202022%20%28cifradores%2C%20V-F%29.pdf) | Composite mal diseñado (cifradores) y V/F de patrones |
-| [Agosto 2024](2026/Final/2024-08%20Final%20agosto%202024%20%28framework%20ThreadedApp%29.pdf) | Framework ThreadedApp: hooks, hotspots, inversión de control, caja blanca/negra, mock |
-| [Abril 2025](2026/Final/2025-04%20Final%20abril%202025%20%28relato%20de%20un%20alumno%29.pdf) y [2025](2026/Final/2025%20Final%20%28relato%20de%20un%20alumno%2C%20Decorator%20y%20refactoring%29.pdf) (relatos) | Decorator y su comparación con Adapter, Strategy y Composite; refactoring de código |
-| [Filtros](2026/Final/Sin%20fecha%20-%20Filtros%20%28V-F%20y%20refactoring%29.pdf) | V/F y refactoring de un condicional por tipo de conexión |
-| [Módulos, E-Shop y Turismo](2026/Final/Sin%20fecha%20-%20M%C3%B3dulos%2C%20E-Shop%20y%20Turismo.pdf) | Tres exámenes: V/F + refactoring (módulos), State vs. Strategy + refactoring (E-Shop), Composite mal diseñado (turismo) |
-| [Módulos y CharRing](2026/Final/Sin%20fecha%20-%20M%C3%B3dulos%20y%20CharRing.pdf) | V/F de módulos y pasos que aseguran un refactoring |
-| [Robots y estación meteorológica](2026/Final/Sin%20fecha%20-%20Robots%20y%20estaci%C3%B3n%20meteorol%C3%B3gica.pdf) | Adapter vs. Decorator, Template Method en un framework, Strategy, Decorator/Adapter con casos de prueba |
-| [Preguntas teóricas (finales viejos)](2026/Final/Sin%20fecha%20-%20Preguntas%20te%C3%B3ricas%20y%20ejercicios%20%28finales%20viejos%29.pdf) | Preguntas cortas; cuentas bancarias (Template Method) y alarma (State + Strategy) |
-| [Pet shop y banco de alimentos](2026/Final/Sin%20fecha%20-%20Pet%20shop%20y%20banco%20de%20alimentos.pdf) | Ejercicios de diseño (Strategy, Type Object) |
 
 ## Parciales y repaso
 
