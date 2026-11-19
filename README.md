@@ -1,6 +1,6 @@
 # Orientación a Objetos 2
 
-Material de Orientación a Objetos 2 (cursada 2026): teorías de la cátedra (2026 y, para los temas que faltan, de cursadas anteriores), finales anteriores, y ejercicios resueltos en Java (proyectos Maven) de patrones de diseño, refactoring, frameworks y parciales.
+Material de Orientación a Objetos 2 (cursada 2026): teorías de la cátedra (2026 y, para los temas que faltan, de cursadas anteriores), finales y exámenes de promoción anteriores, y ejercicios resueltos en Java (proyectos Maven) de patrones de diseño, refactoring, frameworks y parciales.
 
 ## [Teoría](2026/Teor%C3%ADa/)
 
@@ -45,6 +45,18 @@ Fotos, escaneos y relatos de finales anteriores. Las marcas en las fotos son, en
 | [Robots y estación meteorológica](2026/Final/Sin%20fecha%20-%20Robots%20y%20estaci%C3%B3n%20meteorol%C3%B3gica.pdf) | Adapter vs. Decorator, Template Method en un framework, Strategy, Decorator/Adapter con casos de prueba |
 | [Preguntas teóricas (finales viejos)](2026/Final/Sin%20fecha%20-%20Preguntas%20te%C3%B3ricas%20y%20ejercicios%20%28finales%20viejos%29.pdf) | Preguntas cortas; cuentas bancarias (Template Method) y alarma (State + Strategy) |
 | [Pet shop y banco de alimentos](2026/Final/Sin%20fecha%20-%20Pet%20shop%20y%20banco%20de%20alimentos.pdf) | Ejercicios de diseño (Strategy, Type Object) |
+
+## [Promoción](2026/Promoci%C3%B3n/)
+
+Exámenes y cuestionarios de promoción de años anteriores. No son el final, pero los arma la misma cátedra y varios tienen corrección docente o la respuesta oficial, así que muestran cómo lee las afirmaciones.
+
+| Examen | Qué tiene |
+| --- | --- |
+| Cuestionarios 2022: [1](2026/Promoci%C3%B3n/2022%20Cuestionario%20de%20promoci%C3%B3n%201%20%28Moodle%2C%20con%20respuestas%20oficiales%29.pdf) · [2](2026/Promoci%C3%B3n/2022%20Cuestionario%20de%20promoci%C3%B3n%202%20%28Moodle%2C%20con%20respuestas%20oficiales%29.pdf) · [3](2026/Promoci%C3%B3n/2022%20Cuestionario%20de%20promoci%C3%B3n%203%20%28Moodle%2C%20con%20respuestas%20oficiales%29.pdf) · [4](2026/Promoci%C3%B3n/2022%20Cuestionario%20de%20promoci%C3%B3n%204%20%28Moodle%2C%20con%20respuestas%20oficiales%29.pdf) · [5](2026/Promoci%C3%B3n/2022%20Cuestionario%20de%20promoci%C3%B3n%205%20%28Moodle%2C%20con%20respuestas%20oficiales%29.pdf) | Multiple choice de Moodle con la respuesta correcta oficial (patrones, refactoring, testing, frameworks) |
+| [Examen de promoción 2024](2026/Promoci%C3%B3n/2024%20Examen%20de%20promoci%C3%B3n%20%28con%20correcci%C3%B3n%20docente%29.pdf) | Null Object y Adapter, refactoring, librerías vs. frameworks y test doubles; corregido con puntaje |
+| [Examen de promoción 2025](2026/Promoci%C3%B3n/2025%20Examen%20de%20promoci%C3%B3n%20%28con%20correcci%C3%B3n%20docente%29.pdf) | Framework YouTour con Builder y opciones múltiples de refactoring, test doubles y TDD; corregido con puntaje |
+| Preguntas de acceso 2025: [en blanco](2026/Promoci%C3%B3n/2025-06-07%20Preguntas%20para%20acceder%20a%20la%20promoci%C3%B3n.pdf) y [con respuestas de un alumno](2026/Promoci%C3%B3n/2025-06-07%20Preguntas%20para%20acceder%20a%20la%20promoci%C3%B3n%20%28respuestas%20de%20un%20alumno%29.pdf) | Relaciones de Strategy con otros patrones, frameworks y V/F (sin corrección) |
+| [Preguntas de acceso 2026](2026/Promoci%C3%B3n/2026-06-06%20Preguntas%20para%20acceder%20a%20la%20promoci%C3%B3n%20%28con%20correcci%C3%B3n%20docente%29.pdf) | Relaciones de State con otros patrones, test doubles y V/F; corregidas |
 
 ## [Patrones](2026/Práctica/Patrones/)
 
